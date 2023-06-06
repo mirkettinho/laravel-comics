@@ -1,6 +1,7 @@
+{{-- mi prendo l'array --}}
 @php
     $navbar = config("navbar-link");
-    @dump($navbar)
+    // @dump($navbar)
 @endphp
 
 

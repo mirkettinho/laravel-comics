@@ -8,5 +8,27 @@
 
 @import "./partials/header";
 
-@import "./partials/general"
+@import "./partials/variables";
 
+@import "./partials/typography";
+
+
+@import "./partials/utils";
+
+
+
+
+@import "./partials/general";
+
+h1 {
+  font-family: $primary-font;
+  color: white;
+}
+
+.black {
+  background-color: #1c1c1c;
+}
+
+.blue {
+  background-color: $primary-color;
+}

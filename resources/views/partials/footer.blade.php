@@ -1,6 +1,6 @@
 <div class="bg">
     <footer class="">
-
+        <h1>footer</h1>
       <div class="top container">
 
         <div class="col">
