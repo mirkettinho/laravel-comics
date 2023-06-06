@@ -18,7 +18,9 @@
 
 
     <main>
+      @include("partials.jumbotron")
         @yield("content")
+      @include("partials.cta")
     </main>
 
 

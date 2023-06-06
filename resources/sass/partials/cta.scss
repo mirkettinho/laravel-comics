@@ -1,0 +1,22 @@
+.container{
+  display: flex;
+  padding: 30px;
+.md-col{
+display: flex;
+align-items: center;
+
+img{
+width: 45px;
+padding-right: 10px;
+}
+span{
+color: white;
+font-size: 0.6rem;
+padding-right: 90px;
+}
+}
+}
+
+.md-col.first{
+  margin-left: 40px;
+}
