@@ -1,7 +1,7 @@
-.bg{
-  // background-image: url("/public/img/footer-bg.jpg");
-  // background-size: cover;
-  background-color: aquamarine;
+.footer-bg{
+    background-image: url("/public/img/footer-bg.jpg");
+    background-size: cover;
+
   footer{
     padding-top: 1rem;
 
@@ -47,6 +47,7 @@
       color: white;
       padding: 10px;
       border: 2px solid $primary-color;
+
     }
     .right{
       display: flex;
