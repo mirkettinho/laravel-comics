@@ -58,7 +58,11 @@ Route::get('/video', function () {
 
 
 // DESCRIPTION
-Route::get('/details', function () {
-  return view('details');
+Route::get('/details/{slug}', function ($slug) {
+
+  $db = config("comics");
+  $comic = array_filter($db, fn($item) => $item["slug"] === $slug);
+  $item = $comic[array_key_first($comic)];
+  return view('details', compact("item"));
 })->name("details");
 

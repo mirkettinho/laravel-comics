@@ -6,13 +6,43 @@
     margin: 0 auto;
     .d-flex{
       display: flex;
+      .details{
+        .title h1{
+          color: #003f5e;
+          margin-top: 50px;
+          padding-bottom: 10px;
+        }
+        .description{
+          color: #5c5964;
+          padding-top: 10px;
+        }
+      }
       .adv{
-        height: 200px ;
-        width: 250px;
-        background-color: red;
+        .adv-image{
+          height: 250px;
+          width: 300px;
+          margin-bottom: 20px;
+
         img{
-          height: 100%;
+            height: 100%;
+          }
+
+        }
+        .md-btn{
+          background-color: #239e6d;
+          color: white;
+          padding: 10px 20px;
+          border-radius: 10px;
+
         }
       }
     }
+}
+
+.personal-card{
+  position: absolute;
+  background-color: aquamarine;
+  top: 150px;
+  width: 120px;
+  height: 180px;
 }

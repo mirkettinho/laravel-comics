@@ -2,24 +2,30 @@
 
 @section("content")
 
+{{-- @dd($comic) --}}
 <div class="personal-container">
+
+  <div class="personal-card">
+    <img src="{{$item["thumb"]}}" alt="">
+  </div>
 
   <div class="d-flex">
     <div class="details">
       <div class="title">
-        <h1>ciao</h1>
+        <h1>{{$item["title"]}}</h1>
       </div>
       <div class="price">
-        1
+        {{$item["price"]}}
       </div>
       <div class="description">
-        2
+        {{$item["description"]}}
       </div>
     </div>
     <div class="adv">
-      ciao
-      <img src="{{Vite::asset("public/img/adv.jpg")}}" alt="">
-      <img src="{{Vite::asset("public/img/footer-bg.jpg")}}" alt="">
+      <div class="adv-image">
+        <img src="{{Vite::asset("public/img/dc-logo.png")}}" alt="">
+      </div>
+      <a class="md-btn" href="{{route ("comics")}}">torna alla lista dei fumetti</a>
     </div>
   </div>
 </div>
