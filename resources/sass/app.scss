@@ -12,6 +12,9 @@
 
 @import "./partials/comics";
 
+@import "./partials/details";
+
+
 @import "./partials/cta.scss";
 
 
@@ -32,7 +35,7 @@
 
 h1 {
   font-family: $primary-font;
-  color: white;
+  color: black;
 }
 
 

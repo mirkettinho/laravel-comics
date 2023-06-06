@@ -5,7 +5,7 @@
 @endphp
 
 
-<header class="container">
+<header class=" md-container">
     <div class="logo">
 	    <img src="img/dc-logo.png" alt="Logo DC">
     </div>

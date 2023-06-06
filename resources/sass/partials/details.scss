@@ -1,0 +1,18 @@
+.personal-container{
+
+    padding: 10px;
+    width: 60%;
+    max-width: $container-width;
+    margin: 0 auto;
+    .d-flex{
+      display: flex;
+      .adv{
+        height: 200px ;
+        width: 250px;
+        background-color: red;
+        img{
+          height: 100%;
+        }
+      }
+    }
+}

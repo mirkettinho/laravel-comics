@@ -55,3 +55,10 @@ Route::get('/tv', function () {
 Route::get('/video', function () {
     return view('videos');
 })->name("video");
+
+
+// DESCRIPTION
+Route::get('/details', function () {
+  return view('details');
+})->name("details");
+
