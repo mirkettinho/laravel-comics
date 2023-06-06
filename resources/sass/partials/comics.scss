@@ -1,0 +1,25 @@
+
+.bg-main{
+  background-color: #1c1c1c;
+  .d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    .md-card{
+      width: 200px;
+      margin-bottom: 20px;
+      .card-image{
+        margin: 20px 10px 8px 10px;
+        height: 180px;
+        overflow: hidden;
+      }
+      img{
+        width: 100%;
+
+      }
+      .card-title{
+        color: #f1fbff;
+        padding-left: 10px;
+      }
+    }
+  }
+}

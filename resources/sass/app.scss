@@ -8,6 +8,9 @@
 
 @import "./partials/header";
 
+@import "./partials/comics";
+
+
 @import "./partials/variables";
 
 @import "./partials/typography";
@@ -25,9 +28,6 @@ h1 {
   color: white;
 }
 
-.black {
-  background-color: #1c1c1c;
-}
 
 .blue {
   background-color: $primary-color;
